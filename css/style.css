@@ -1,0 +1,199 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+:root{
+
+    --bg-principal: #042940; /* ou #005C30 */
+    --cor-semana: #FFE81B;
+    --cor-detalhes: #00861E;
+    --cor-decora: #005C53;
+
+}
+
+body{
+
+    overflow-x: hidden;
+
+}
+
+header{
+
+    width: 100%;
+    height: 95px;
+    background-color: var(--bg-principal);
+
+}
+
+
+header figure{
+
+    border: transparent 3px solid;
+    width: 7.5%;
+    height: 96%;
+
+}
+
+header figure img{
+
+    width: 100%;
+    height: 100%;
+    cursor: pointer
+
+}
+
+header .titulo_cardapio{
+
+    text-align: center;
+    margin-top: -55px !important;
+    font-size: 25px;
+    color: var(--cor-semana) !important;
+
+}
+
+main{
+
+    background-color: var(--bg-principal);
+    width: 100%;
+    height: 100vh;
+
+}
+
+.linha{
+
+    background-color: var(--bg-principal);
+    border: #00861E 2px solid;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+main .container{
+
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .tipo_prato{
+
+    width: 12%;
+    height: 52%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: var(--cor-detalhes);
+    margin: 0 30px 0 0;
+
+}
+
+main .tipo_prato .bloco-bg{
+
+    background-color: var(--bg-principal);
+    width: 100%;
+    height: 15%;
+    border-top: 4px solid var(--bg-principal);
+
+}
+
+main .tipo_prato .prato{
+
+    width: 100%;
+    height: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 21px;
+    border-bottom: 2px solid var(--bg-principal);
+
+}
+
+main .comidas{
+
+    width: 80%;
+    height: 46%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    max-width: 0 0 125px 0;
+
+}
+
+main .dia_semana{
+
+    width: 18%;
+    height: 100%;
+    border: 2.5px dashed var(--cor-decora);
+    text-align: center;
+    margin: 0 auto;
+    background-color: var(--cor-detalhes);
+
+}
+
+main .dia_semana h4{
+
+    border-bottom: 2.2px solid var(--cor-decora);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 10px 0;
+
+
+}
+
+main .dia_semana hr{
+
+    margin: 10px 0 20px 0;
+
+}
+
+main .dia_semana .cxComidas{
+
+    border: 1px solid transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .dia_semana .cxComidas ul{
+
+    list-style: none;
+    color: #d0d0d0;
+    margin: 5px 0 9px 0;
+
+}
+
+
+footer{
+    
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor-decora);
+    display: flex;
+    justify-content: end;
+    color: #d1d1d1;
+
+}
+
+.cx_footer{
+  
+    position: relative;
+    left: -2%;
+
+}
